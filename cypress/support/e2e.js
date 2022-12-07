@@ -13,6 +13,10 @@
 // https://on.cypress.io/configuration
 // ***********************************************************
 
+const registerCypressGrep = require('@cypress/grep')
+
+registerCypressGrep()
+
 // Import commands.js using ES2015 syntax:
 import './commands'
 
